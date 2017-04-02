@@ -1,0 +1,223 @@
+/* ================================================================================================ BODY ===	*/
+
+body {
+	font-family: 'Special Elite', cursive;
+	background-color: #121211;
+	margin: 0;
+}
+
+body a:link {
+	text-decoration: none;
+	color: white;
+}
+
+body a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+body a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+body a:active {
+	text-decoration: none;
+	color: white;
+}
+
+/* ================================================================================================ PAGE ===	*/
+.page {
+	width-max: 50em;
+	margin: auto;
+	background-color: #121211;
+}
+
+/* ================================================================================================ HEADER ===	*/
+
+header {
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: #121211;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+header  a {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+}
+
+/* ================================================================================================ CONTENTS ===	*/
+.contents {
+	background-color: #121211;
+	width: 100%;
+	float: left;
+}
+
+/* ================================================================================================ NAVIGATION ===	*/
+
+#navtop {
+	background-color: #121211;
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 0px 30px 0px;
+	display: block;
+}
+
+#navtop ul {
+	list-style: none;
+	margin-left: 28%;
+	padding: 0;
+}
+
+#navtop ul a {
+	display:block;
+	color: white;
+	text-decoration:none;
+	padding:0 15px;
+	font-family: 'Special Elite', cursive;
+}
+
+#navtop ul li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 1.6em;
+}
+
+#navtop ul ul {
+	display: none;
+	position: absolute;
+	width: 130px;
+	top: 100%;
+	left: -40px;
+	background-color: #121211;
+	font-size: 0.5em;
+}
+
+.dropdownContent: first-child {
+	padding: 0px;
+}
+
+#navtop ul ul li {
+	text-align: center;
+	float: none;
+	width: 100%;
+	border-bottom: 1px solid #212121;
+}
+
+#navtop ul ul li:first-child {
+	margin-top: 14px;
+}
+
+#navtop ul ul a {
+	line-height: 120%;
+	padding: 10px 15px;
+}
+
+#navtop ul ul a:hover {
+	background-color: #2f2f2f;
+}
+
+#navtop ul li:hover > ul {
+	display: block;
+}
+/* ================================================================================================ MAIN ===	*/
+
+main {
+	width: 54em;
+	background-color: #212121;
+	margin: auto;
+	border: 1px solid #212121;
+	border-radius: 20px;
+	color: white;
+	clear: left;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 200px;
+	width: 400px;
+}
+
+p {
+	color: white;
+	background-color: #212121;
+}
+
+.pageTitle {
+	background-color: #212121;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	font-size: 1.5em;
+	width-max: 80%;
+}
+
+.pageText {
+	width: 80%;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pageText p {
+	margin-left: auto;
+	margin-right: auto;
+	width-max: 100%;
+}
+
+.dlweb {
+	font-family: 'Special Elite', cursive;
+	font-size: 1em;	
+}
+
+.dlweb:link {
+    text-decoration: underline;
+}
+
+.dlweb:hover {
+	color: darkgray;
+	text-decoration: underline;
+}
+
+#order {
+	text-align: center;
+}
+
+/* ================================================================================================ FOOTER ===	*/
+
+#footer {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #121211;
+	text-align: center;
+}
+
+#footer a {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #121211;
+	text-align: center;
+}
+
+#footer a p {
+	text-decoration: none;
+	color: white;
+	background-color: #121211;
+	text-align: center;
+}
