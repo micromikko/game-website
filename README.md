@@ -1,4 +1,4 @@
 # OTRSOW-website
-A basic website for our noir styled text-adventure created in Unity (written in C#).
-
-http://users.metropolia.fi/~mikkompe/blogi/
+As an introduction to HTML and CSS, this basic website was born for our noir styled text-adventure.
+   
+The site can be accessed here: http://users.metropolia.fi/~mikkompe/blogi/
